@@ -6,6 +6,10 @@ export const UserIcon = styled.div`
     width: 66px;
     height: 62px;
     left: 1127px;
-    top: 70px;
-    color: #1945E4;  
+    top: 70px; 
 `;
+
+/*export const AdminUserIcon = styled(UserIcon)`
+    background: url('/admin_user_logo.png');
+   
+`;*/
