@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Label = styled.label`
-  position: absolute;
   width: 245px;
   height: 62px;
   left: 245px;

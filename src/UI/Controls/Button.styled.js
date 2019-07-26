@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const ButtonHome = styled.button`
-    position: absolute;
+export const Button = styled.button`
     width: 93px;
     height: 31px;
     left: 735px;
@@ -23,12 +22,4 @@ export const ButtonHome = styled.button`
     :hover {
         color: #142D86;
     }; 
-`;
-
-export const ButtonTests = styled(ButtonHome)`
-    left: 848px;
-`;
-
-export const ButtonUsers = styled(ButtonHome)`
-    left: 950px;
 `;
