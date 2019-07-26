@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import HeaderComponent from "./Components/HeaderComponent";
+import HomePageComponent from "./Components/HomePageComponent";
 
 function App() {
   return (
     <div className="App">
-
-        <HeaderComponent/>
+        <HeaderComponent isAdmin={false} />
+        <HomePageComponent />
     </div>
   );
 }

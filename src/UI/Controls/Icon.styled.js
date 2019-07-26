@@ -9,7 +9,7 @@ export const UserIcon = styled.div`
     top: 70px; 
 `;
 
-/*export const AdminUserIcon = styled(UserIcon)`
+export const AdminIcon = styled(UserIcon)`
     background: url('/admin_user_logo.png');
    
-`;*/
+`;

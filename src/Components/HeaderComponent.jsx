@@ -4,20 +4,22 @@ import { ButtonHome } from "../UI/Controls/Button.styled";
 import { ButtonTests } from "../UI/Controls/Button.styled";
 import { ButtonUsers } from "../UI/Controls/Button.styled";
 import { UserIcon } from "../UI/Controls/Icon.styled";
-//import { AdminUserIcon } from "../UI/Controls/Icon.styled";
+import { AdminIcon } from "../UI/Controls/Icon.styled";
 
-const HeaderComponent = () => {
-
+const HeaderComponent = (option) => {
     return(
         <div>
             <Label> Some label </Label>
             <ButtonHome> Home </ButtonHome>
             <ButtonTests> Tests </ButtonTests>
             <ButtonUsers> Users </ButtonUsers>
-            <UserIcon/>
-
-
-        </div>
+            {
+                option.isAdmin?
+                    <AdminIcon/>
+                    :
+                    <UserIcon/>
+            }
+            </div>
     )
 };
 
