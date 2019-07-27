@@ -1,22 +1,27 @@
 import * as React from 'react';
-import { SignUpForm } from "../UI/Controls/SignUp.styled";
-import { Input } from "../UI/Controls/SignUp.styled";
+import { SignUpForm } from "./SignUp.styled";
+import { Input } from "../UI/Controls/Input.styled";
+import {Button} from "../UI/Controls/Button.styled";
+import {Container} from "../UI/Container.styled";
 
 
 
 const SignUpComponent = () => {
 
     return(
-        <div>
-            <h2>Sign up</h2>
+        <Container>
+
             <SignUpForm>
+                <h2>Sign up</h2>
                 <div>
-                    <Input defaultValue="Login" type="text"/>
-                    <Input defaultValue="Login" type="email"/>
-                    <Input defaultValue="Login" type="password"/>
+                    <Input placeholder="Login" type="text"/>
+                    <Input placeholder="Email" type="email"/>
+                    <Input placeholder="Password" type="password"/>
+                    <Button variant="signIn"> Already a member? Sign In</Button>
+
                 </div>
             </SignUpForm>
-        </div>
+        </Container>
     )
 };
 

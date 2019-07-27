@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Label = styled.label`
   width: 245px;
   height: 62px;
-  left: 245px;
-  top: 82px;
   
   font-family: Roboto;
   font-style: normal;

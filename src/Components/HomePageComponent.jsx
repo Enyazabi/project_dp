@@ -1,23 +1,22 @@
 import * as React from 'react';
-import { ButtonStart } from "../UI/Controls/HomePage.styled";
-import { HomeText } from "../UI/Controls/HomePage.styled";
-import { HomeTextLorem } from "../UI/Controls/HomePage.styled";
+import {ButtonLarge, HomeWrapper} from "./HomePage.styled";
+import { HomeText } from "./HomePage.styled";
+import { HomeTextLorem } from "./HomePage.styled";
 
 const HomePageComponent = () => {
 
     return(
-        <div>
-            <HomeText> Start the test </HomeText>
+        <HomeWrapper>
 
+            <HomeText> Start the test </HomeText>
             <HomeTextLorem>Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua.
             </HomeTextLorem>
+            <ButtonLarge> Start the test </ButtonLarge>
 
-            <ButtonStart> Start the test </ButtonStart>
-
-        </div>
+        </HomeWrapper>
     )
 };
 

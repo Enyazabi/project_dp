@@ -1,13 +1,14 @@
 import * as React from 'react';
-import { Label } from '../UI/Controls/Label.styled'
+import { Label } from '../UI/Label.styled'
 import { Button } from "../UI/Controls/Button.styled";
-import { UserIcon } from "../UI/Controls/Icon.styled";
-import { AdminIcon } from "../UI/Controls/Icon.styled";
-import {HeaderWrapper} from "./HeaderComponent.styled";
+import { UserIcon } from "../UI/Icon.styled";
+import { AdminIcon } from "../UI/Icon.styled";
+import {Container} from "../UI/Container.styled";
 
 const HeaderComponent = (option) => {
     return(
-        <HeaderWrapper>
+        <Container>
+
             <Label> Some label </Label>
             <Button> Home </Button>
             <Button> Tests </Button>
@@ -18,7 +19,8 @@ const HeaderComponent = (option) => {
                     :
                     <UserIcon/>
             }
-        </HeaderWrapper>
+
+        </Container>
     )
 };
 
