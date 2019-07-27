@@ -5,6 +5,7 @@ export const SignUpForm = styled.form`
 width: 362px;
 height: 400px;
 margin: auto;
+margin-bottom: 10px;
 padding-top:20px;
 
 background: linear-gradient(180deg, rgba(25, 69, 228, 0.6) 0%, rgba(47, 67, 139, 0.162) 100%);

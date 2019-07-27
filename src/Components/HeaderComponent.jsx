@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Label } from '../UI/Label.styled'
-import { Button } from "../UI/Controls/Button.styled";
+import { Button } from "../UI/Controls/Buttons.styled";
 import { UserIcon } from "../UI/Icon.styled";
 import { AdminIcon } from "../UI/Icon.styled";
 import {Container} from "../UI/Container.styled";

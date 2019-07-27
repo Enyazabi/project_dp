@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SignUpForm } from "./SignUp.styled";
 import { Input } from "../UI/Controls/Input.styled";
-import {Button} from "../UI/Controls/Button.styled";
+import {Button, ButtonLarge} from "../UI/Controls/Buttons.styled";
 import {Container} from "../UI/Container.styled";
 
 
@@ -19,8 +19,10 @@ const SignUpComponent = () => {
                     <Input placeholder="Password" type="password"/>
                     <Button variant="signIn"> Already a member? Sign In</Button>
 
+
                 </div>
             </SignUpForm>
+            <ButtonLarge> Sign Up </ButtonLarge>
         </Container>
     )
 };

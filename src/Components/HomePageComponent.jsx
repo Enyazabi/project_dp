@@ -1,7 +1,8 @@
 import * as React from 'react';
-import {ButtonLarge, HomeWrapper} from "./HomePage.styled";
+import { HomeWrapper} from "./HomePage.styled";
 import { HomeText } from "./HomePage.styled";
 import { HomeTextLorem } from "./HomePage.styled";
+import {ButtonLarge} from "../UI/Controls/Buttons.styled";
 
 const HomePageComponent = () => {
 
