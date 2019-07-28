@@ -6,9 +6,10 @@ export const Label = styled.label`
   
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: medium;
   font-size: 28px;
   line-height: 33px;
+  text-shadow: 5px 2px 6px grey;
   color: #1945E4;
 `;
 

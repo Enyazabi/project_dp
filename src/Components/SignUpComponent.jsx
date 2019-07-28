@@ -17,7 +17,7 @@ const SignUpComponent = () => {
                     <Input placeholder="Login" type="text"/>
                     <Input placeholder="Email" type="email"/>
                     <Input placeholder="Password" type="password"/>
-                    <Button variant="signIn"> Already a member? Sign In</Button>
+                    <Button variant="signUp"> Already a member? Sign In</Button>
 
 
                 </div>
